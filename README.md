@@ -30,7 +30,7 @@ https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
 - Recall: 0.9594594594594594
 - F1 Score: 0.9235772357723576
 <br>
-Confusion Matrix:
+Confusion Matrix: <br>
 [[704  35] <br>
 [ 12 284]] <br>
 
