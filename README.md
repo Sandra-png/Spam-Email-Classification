@@ -25,7 +25,16 @@ https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
 - Evaluated its performance on the test set
 
 ## Model Evaluation
-  - Accuracy: 95.46%
-  - Precision: 89%
-  - Recall: 95.95%
-  - F1 Score: 92.36%
+### Results:
+The results of the metrics show that the model can filter out spam vs. legitimate emails, with an accuracy (number of correct email classifications) of 95.46%, with a precision (percentage of correct spam emails) of 89.03%, a recall (emails counted as spam that were actually spam) of 95.95%, and the F1 Score (a formula that combines the precision and recall with a focus on lower values, meant to indicate if the performance is good or not) of 92.36%, which is closer to 1 and 0 and considered a good overall performance, because it indicates that the model has a good balance of minimizing false positives, and false negatives.
+
+<br>
+
+### Confusion Matrix:
+- The top left number (704) is the True Negatives, which are the number of correctly predicted legitimate emails.
+
+- The top right number (35) is the False Positives, which is the number of legitimate emails incorrectly classified as spam.
+
+- The bottom left number (12) is the False Negatives, which is the number of spam emails incorrectly classified as legitimate emails.
+
+- The bottom right number (284) is the True Positives, which is the number of correctly classified spam emails.
