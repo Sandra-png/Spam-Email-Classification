@@ -5,9 +5,6 @@ This project involved building a machine learning model to classify emails as ei
 ## Why Naive Bayes?
 The supervised learning classification algorithm for spam detection that I chose for this was Naive Bayes. Naive Bayes is commonly used in spam filtering. In this case, Naive Bayes would calculate the probability of each class given its data points, and will then choose the class with the highest probability. Naive Bayes is an especially good at text classifications, and can handle the high quantity of text emails can produce, and therefore seems like the correct choice for this task. Specifically the Multinominal Naive Bayes classifier.
 
-In the next code snippets I am preparing the data by dropping the "Email No." and "Prediction" columns, with the target variable being the "Prediction" column. The model learns that the Y predicted spam emails have "z" features from X, and from the correlation can predict spam emails.
-
-I thereafter split the dataset into training and testing, where 20% goes into testing after training.
 
 ## Dataset
 https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
