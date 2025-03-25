@@ -1,10 +1,27 @@
-# spam_email
-Assignment 1: Spam Email Classification using Supervised Learning, followed by Feature Engineering
+# Spam Email Classification
 
-You will apply the knowledge of machine learning algorithms to analyze features extracted from email datasets and build a robust model capable of distinguishing between spam and legitimate emails. Perform feature engineering and choose appropriate supervised learning classification algorithms for spam detection, such as Naive Bayes, Support Vector Machines (SVM), or Random Forests. You need to split the dataset into training and testing sets, and train the selected models on the training data. Evaluate the performance of the models using metrics such as accuracy, precision, recall, and F1 score. Use confusion matrices to gain insights into false positives and false negatives.
+This project involved building a machine learning model to classify emails as either spam or legitimate using Naive Bayes. The project started by conducting a data cleaning and exploratory data analysis (EDA). I then measured the performance of the model using metrics like accuracy, precision, recall, F1 score, confusion matrice.
 
-Dataset:
+## Dataset
 https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
 
-Instruction:
-Use Colab for the project or similar setup.
+## Key Features
+### Cleaning the Dataset
+- Imported and cleaned the dataset by checking for and removing missing values and duplicates.
+- Conducted an EDA using descriptive statistics and visualizations to understand the feature distributions and class imbalance.
+
+### Feature Engineering
+- Removed non-informative columns like "Email No."
+- Defined features (X) and target (y)
+- Split the data into training and teseting sets, using an 80/20 split
+
+### Modeling
+- Used Multinominal Naive Bayes classifier
+- Trained the model on the training set
+- Evaluated its performance on the test set
+
+## Model Evaluation
+  - Accuracy: 95.46%
+  - Precision: 89%
+  - Recall: 95.95%
+  - F1 Score: 92.36%
